@@ -1,0 +1,27 @@
+GET http://localhost:3500/projects
+
+###
+GET http://localhost:3500/projects/05951b02-fb80-4e6a-a3f9-89715f56541e
+
+### 
+POST http://localhost:3500/projects
+Content-Type: application/json
+
+{
+    "code": "021C",
+    "description": "021C SBI",
+    "location": "Bogor"
+}
+
+###
+PUT http://localhost:3500/projects/f14320c0-5731-4cc1-b5b9-465852c0e30d
+Content-Type: application/json
+
+{
+    "location": "Jakarta"
+}
+
+###
+DELETE http://localhost:3500/projects/ebec38df-eff0-48d1-8368-b88de42b8561
+
+

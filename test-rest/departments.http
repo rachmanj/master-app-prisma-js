@@ -1,0 +1,18 @@
+GET http://localhost:3500/departments
+
+###
+POST http://localhost:3500/departments
+Content-Type: application/json
+
+{
+    "code": "ACC",
+    "name": "Accounting"
+}
+
+###
+PUT http://localhost:3500/departments/73a388cd-e9e6-4fae-b503-f7abd1c8481
+Content-Type: application/json
+
+{
+    "description": "Accounting Department"
+}
